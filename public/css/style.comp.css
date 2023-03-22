@@ -180,36 +180,6 @@ body {
         @media only screen and (max-width: 400px) {
           .showcase__card__left h4 {
             font-size: 3rem; } }
-      .showcase__card__left__btn {
-        border: none;
-        padding: 1.5rem 4.5rem;
-        border-radius: 0.2rem;
-        margin-top: 8rem;
-        border: 1px solid #cccccc;
-        background-color: transparent;
-        cursor: pointer;
-        border: none;
-        padding: 1.5rem 4.5rem;
-        border-radius: 0.2rem;
-        margin-top: 8rem;
-        border: 1px solid #cccccc;
-        background-color: transparent;
-        cursor: pointer;
-        text-decoration: none;
-        color: #cccccc;
-        text-transform: uppercase;
-        font-size: 1.6rem; }
-        @media only screen and (max-width: 650px) {
-          .showcase__card__left__btn {
-            margin-top: 5rem;
-            padding: 1.5rem 6.5rem; } }
-        @media only screen and (max-width: 650px) {
-          .showcase__card__left__btn {
-            margin-top: 5rem;
-            padding: 1.5rem 6.5rem; } }
-        @media only screen and (max-width: 650px) {
-          .showcase__card__left__btn {
-            font-size: 1.8rem; } }
     .showcase__card__right {
       display: flex;
       justify-content: center;
@@ -230,6 +200,37 @@ body {
         .showcase__card__right__img--2 {
           background-image: url("../img/outdoor.jpeg");
           background-position: center; }
+
+.btn {
+  border: none;
+  padding: 1.5rem 4.5rem;
+  border-radius: 0.2rem;
+  margin-top: 8rem;
+  border: 1px solid #cccccc;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  padding: 1.5rem 4.5rem;
+  border-radius: 0.2rem;
+  margin-top: 8rem;
+  border: 1px solid #cccccc;
+  background-color: transparent;
+  cursor: pointer;
+  text-decoration: none;
+  color: #cccccc;
+  text-transform: uppercase;
+  font-size: 1.6rem; }
+  @media only screen and (max-width: 650px) {
+    .btn {
+      margin-top: 5rem;
+      padding: 1.5rem 6.5rem; } }
+  @media only screen and (max-width: 650px) {
+    .btn {
+      margin-top: 5rem;
+      padding: 1.5rem 6.5rem; } }
+  @media only screen and (max-width: 650px) {
+    .btn {
+      font-size: 1.8rem; } }
 
 .contact {
   width: 100vw;
