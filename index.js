@@ -10,6 +10,10 @@ app.get("/", (req, res) => {
   res.render("index");
 });
 
+app.get("/qr-code", (req, res) => {
+  res.redirect("/");
+});
+
 app.listen(process.env.PORT || 3000, () => {
   console.log("working");
 });
