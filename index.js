@@ -7,11 +7,11 @@ app.set("view engine", "ejs");
 app.use(express.static("public"));
 
 app.get("/", (req, res) => {
-  res.render("index");
+  res.redirect("https://pinnacledj.com");
 });
 
 app.get("/qr-code", (req, res) => {
-  res.redirect("/");
+  res.redirect("https://pinnacledj.com");
 });
 
 app.listen(process.env.PORT || 3000, () => {
